@@ -5,9 +5,9 @@ const Section7 = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gray-200 text-white flex items-center justify-center py-24"
+      className="w-full min-h-screen bg-gray-200 py-16 sm:py-20 lg:py-24"
     >
-      <div className="max-w-7xl w-full px-6 lg:px-10">
+      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
         <Contact />
       </div>
     </section>

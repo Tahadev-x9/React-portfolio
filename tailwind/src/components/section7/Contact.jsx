@@ -18,16 +18,16 @@ const Contact = () => {
       </div>
 
       {/* Main Content */}
-      <div className="grid lg:grid-cols-2 gap-16">
+      <div className="grid lg:grid-cols-2 gap-10">
 
         {/* Left Side */}
         <div className="bg-zinc-900 rounded-3xl border border-zinc-800 p-10">
 
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="text-3xl font-bold mb-6">
             Contact Information
           </h2>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
 
             <div className="flex items-center gap-5">
               <div className="p-4 rounded-2xl bg-zinc-800">
