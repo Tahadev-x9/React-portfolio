@@ -7,21 +7,21 @@ const Contact = () => {
     <div>
       {/* Heading */}
       <div className="text-center mb-20">
-        <h1 className="text-6xl  text-black lg:text-7xl font-bold">
+       <h1 className="text-4xl sm:text-5xl lg:text-7xl text-black font-bold">
           Let's Work Together
         </h1>
 
-        <p className="text-black text-xl mt-6 max-w-2xl mx-auto">
+      <p className="text-black text-base sm:text-lg lg:text-xl mt-6 max-w-2xl mx-auto px-2">
           Have an idea, project, or opportunity? I'd love to hear from you.
           Let's build something modern and meaningful together.
         </p>
       </div>
 
       {/* Main Content */}
-      <div className="grid lg:grid-cols-2 gap-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 text-white">
 
         {/* Left Side */}
-        <div className="bg-zinc-900 rounded-3xl border border-zinc-800 p-10">
+<div className="bg-black text-white rounded-3xl border border-zinc-800 p-6 sm:p-8 lg:p-10">
 
           <h2 className="text-3xl font-bold mb-6">
             Contact Information
@@ -101,9 +101,9 @@ const Contact = () => {
         </div>
 
         {/* Right Side */}
-        <div className="bg-zinc-900 rounded-3xl border border-zinc-800 p-10">
+    <div className="bg-black text-white rounded-3xl border border-zinc-800 p-6 sm:p-8 lg:p-10">
 
-          <h2 className="text-3xl font-bold mb-8">
+        <h2 className="text-3xl font-bold mb-8">
             Send a Message
           </h2>
 
